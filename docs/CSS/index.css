@@ -1,0 +1,350 @@
+body {
+    direction: rtl;
+    margin: 0;
+    width: 100%;
+}
+
+header div,
+footer div.div4 {
+    background: #38b7de;
+    background: linear-gradient(90deg, rgb(56, 183, 222) 8%,
+            rgb(56, 150, 222) 28%, rgba(57, 94, 227, 1) 100%);
+    height: 60px;
+    width: 100%;
+}
+
+
+section,
+div.div1,
+div.div2,
+div.div3,
+div.div4,
+body,
+header div,
+footer div.div4,
+footer div.div4 p,
+section div div div.dn,
+section div div.div3 {
+    display: inline-block;
+}
+
+header div,
+footer div.div4,
+body,
+footer div.div4 p,
+section.scsc div div.div3 p,
+header div input,
+footer,
+section div div.div2 p.p1 {
+    position: relative;
+}
+
+footer div.div4 p.f2 span,
+section div div.div2 form,
+section div div.div2 p,
+section div div select,
+section div div input,
+section div div div.dn,
+section div div input.ssu,
+footer div.div4 p {
+    font-weight: bold;
+}
+
+header div input,
+section div div .it,
+section div div form .in,
+section div div select.scsc,
+section div div div.dn,
+section div div input.ssu,
+section div div.div2 form select {
+    border-radius: 4px;
+}
+
+section div div form .it,
+section div div form .in,
+header div .t,
+section div div select.scsc,
+section div div div.dn,
+section div div input.ssu,
+section div div.div2 form select {
+    border: 2px solid #ffffff;
+}
+
+section div div form .it,
+section div div form .in,
+header div .t,
+section div div select,
+section div div div.dn,
+section div div input.ssu,
+section div div.div3 p,
+section div div.div2 p.p1 {
+    text-align: center;
+}
+
+header div .s,
+section div div input.ssu,
+footer div.div4 p {
+    color: white;
+}
+
+section div div .it,
+section div div form .in,
+section div div input.ssu,
+section div div.div2 form select {
+    padding: 8px 6px;
+}
+
+section div div .it,
+section div div form .in,
+section div div select.scsc,
+section div div div.dn,
+section div div.div2 form select {
+    outline: 1px solid rgb(133, 133, 133);
+}
+
+section div div .it,
+section div div form .in,
+section div div input.ssu,
+section div div.div2 form select.scsc,
+section div div.div2 form select.scs {
+    margin: 6px 2px;
+}
+
+header div .t {
+    padding: 2px;
+    width: 100px;
+    outline: 2px solid white;
+}
+
+header div .s {
+    background-color: #295a81;
+    border: 2px solid #295a81
+}
+
+header div input {
+    top: 17.5px;
+    right: 8%;
+    margin: 0 2px;
+}
+
+body,
+header div input,
+section,
+section div input footer div.div4 p {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+section div div.div2 {
+    margin-right: 100px;
+    width: 400px;
+}
+
+section div div .it {
+    width: 145px;
+}
+
+section div div form .in {
+    width: 316px;
+}
+
+section div div.div2 form {
+    width: 350px;
+}
+
+section div div.div2 p.p1 {
+    font-size: 22px;
+    left: 50px;
+}
+
+section div div.div2 p.p2 {
+    font-size: 13px;
+}
+
+section div div select.scsc,
+section div div select.scsc {
+    width: 98px;
+    padding: 6px;
+    margin: 6px;
+}
+
+section div div div.dn {
+    width: 84px;
+    padding: 7px;
+    margin: 4px;
+}
+
+section div div input.ssu {
+    width: 340px;
+    outline: 2px solid rgba(57, 94, 227, 1);
+    border: rgba(57, 94, 227, 1);
+    background-color: rgba(57, 94, 227, 1);
+}
+
+section div div.div2 form select.scsc,
+section div div.div2 form select.scs {
+    width: 105px;
+}
+
+section div div.div3 {
+    width: 400px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+section div div.div3 p {
+    font-size: 20px;
+    margin-right: 110 px;
+}
+
+footer {
+    top: 158px;
+}
+
+footer div.div4 p.f1 {
+    right: 80px;
+}
+
+footer div.div4 p.f2 {
+    right: 800px;
+}
+
+footer div.div4 p.f2 span {
+    color: #4d4a4a;
+}
+
+
+.in:focus {
+    outline: 2px solid rgb(56, 150, 222);
+}
+
+.it:focus {
+    outline: 2px solid rgb(56, 150, 222);
+}
+
+.ssu:focus {
+    outline: 2px solid rgb(56, 150, 222);
+}
+
+.scsc:focus {
+    outline: 2px solid rgb(56, 150, 222);
+}
+
+.ssu:focus {
+    width: 344px;
+    outline: 0px solid rgba(57, 94, 227, 1);
+}
+
+@media (min-width:320px) and (max-width:1201px){
+    body,
+    header div,
+    footer div.div4,
+    section{
+        width: 100%;
+    }
+}
+@media (min-width:1071px) and (max-width:1201px){
+    img{
+        width: 450px;
+    }
+    footer div.div4 p.f1 {
+        right: 10px;
+    }
+    
+    footer div.div4 p.f2 {
+        right: 600px;
+    }
+}
+@media (min-width:1021px) and (max-width:1070px){
+    img{
+        width: 350px;
+    }
+    footer div.div4 p.f1 {
+        right: 10px;
+    }
+    
+    footer div.div4 p.f2 {
+        right: 400px;
+    }
+}
+@media (min-width:921px) and (max-width:1020px){
+    img{
+        width: 350px;
+    }
+    footer div.div4 p.f1 {
+        right: 10px;
+    }
+    
+    footer div.div4 p.f2 {
+        right: 400px;
+    }
+    section div div.div2 {
+        margin-right: 0px;
+    }
+}
+@media (min-width:871px) and (max-width:920px){
+    img{
+        width: 350px;
+    }
+    footer div.div4 p.f1 {
+        right: 10px;
+    }
+    
+    footer div.div4 p.f2 {
+        right: 400px;
+    }
+    section div div.div2 {
+        margin-right: 0px;
+        width: 350px;
+    }
+}
+@media (min-width:574px) and (max-width:870px){
+    footer div.div4 p.f1 {
+        right: 10px;
+    }
+    
+    footer div.div4 p.f2 {
+        right: 100px;
+    }
+    section div div.div2 {
+        position: relative;
+        right: 10%;
+    }
+    body{
+        position: relative;
+    }
+    img{
+        width: 400px;
+    }
+    header div input {
+        right: 27%;
+    }
+
+
+}
+@media (min-width:457px) and (max-width:574px){
+    
+    footer div.div4 p.f2 {
+        right: 20px;
+    }
+    section div div.div2 {
+        position: relative;
+    }
+    body{
+        position: relative;
+    }
+    img{
+        width: 300px;
+    }
+    header div input {
+        right: 23%;
+    }
+    footer div.div4 p.f1 {
+        right: 0px;
+    }
+
+
+}
